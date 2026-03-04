@@ -1,4 +1,5 @@
-import people from "../data/people"
+import React from "react";
+import people from "../data/people";
 import IdCard from "./IdCard"
 
 function CardList(){
@@ -9,11 +10,12 @@ function CardList(){
         {people.map((person) => (
           <IdCard
             key={person.id}
+            id={person.id}
             name={person.name}
             role={person.role}
             department={person.department}
             avatar={person.avatar}
-            id={person.id}
+            
           />
         ))}
 

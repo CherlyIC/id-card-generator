@@ -1,3 +1,4 @@
+import React from "react";
 function IdCard({name, role, department, avatar, id}){
   return(
     <div className="bg-white rounded-2xl shadow-lg w-72 overflow-hidden border border-gray-200">
