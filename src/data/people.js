@@ -1,31 +1,35 @@
+import noir from '../assets/noir.jpg'
+import pimage1 from '../assets/pimage1.jpg'
+import pimage2 from '../assets/pimage2.jpg'
+import pimage3 from '../assets/pimage3.jpg'
 const people = [
   {
     id: 1,
     name: "Alice Johnson",
     role: "Software Engineer",
     department: "Engineering",
-    avatar: "https://i.pravatar.cc/150?img=1"
+    avatar: noir
   },
   {
     id: 2,
     name: "Bob Martinez",
     role: "Product Manager",
     department: "Product",
-    avatar: "https://i.pravatar.cc/150?img=3"
+    avatar: pimage1
   },
   {
     id: 3,
     name: "Clara Osei",
     role: "UI/UX Designer",
     department: "Design",
-    avatar: "https://i.pravatar.cc/150?img=5"
+    avatar: pimage2
   },
   {
     id: 4,
     name: "David Kim",
     role: "Data Analyst",
     department: "Analytics",
-    avatar: "https://i.pravatar.cc/150?img=7"
+    avatar: pimage3
   }
 ]
 
